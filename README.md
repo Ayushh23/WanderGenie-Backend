@@ -16,7 +16,6 @@ WanderGenie is an AI-powered backend service designed to generate personalized a
 -   **AI-Powered Itinerary Generation**: Creates dynamic, multi-day travel plans based on user inputs like destination, interests, budget, and trip length.
 -   **Dynamic Prompt Management**: Utilizes MongoDB to store and manage modular prompt templates, allowing for flexible and powerful prompt engineering without code changes.
 -   **Structured JSON Output**: Delivers itineraries in a clean, predictable JSON format, validated by Pydantic models for easy frontend integration.
--   **Automated Location Linking**: Automatically generates Google Maps search links for all activities and locations mentioned in the itinerary.
 -   **Robust and Scalable**: Built on FastAPI for high performance, asynchronous request handling, and scalability.
 -   **Admin-Friendly**: Includes API endpoints for seeding and managing the AI prompt templates stored in the database.
 
