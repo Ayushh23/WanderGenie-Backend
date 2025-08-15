@@ -27,9 +27,9 @@ if not api_key:
     raise ValueError("GEMINI_API_KEY is missing from environment variables or .env file.")
 
 client = genai.Client(api_key=api_key)
-MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://skillzage1:0vwfCt2zjV1fq0h1@cluster0.gcbclzb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.getenv("DB_NAME", "wander_genie")
-PROMPTS_COLLECTION = os.getenv("PROMPTS_COLLECTION", "prompts")
+MONGO_URI = os.getenv("MONGO_URI")
+DB_NAME = os.getenv("DB_NAME")
+PROMPTS_COLLECTION = os.getenv("PROMPTS_COLLECTION")
 
 # MongoDB init
 mongo = MongoClient(MONGO_URI)
