@@ -4,7 +4,7 @@ uvicorn
 pydantic
 python-dotenv
 pymongo
-bson
+
 google-genai
 requests
 httpx
