@@ -1,0 +1,16 @@
+# Python cache and environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+
+# Environment variables (do NOT push)
+.env
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp

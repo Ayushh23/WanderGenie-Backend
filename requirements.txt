@@ -1,0 +1,10 @@
+
+fastapi==0.109.1
+uvicorn[standard]==0.23.2
+pydantic==2.6.2
+python-dotenv==1.0.0
+pymongo==4.4.0
+bson==0.5.10
+google-genai==0.0.14
+requests==2.32.0
+httpx==1.7.6
