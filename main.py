@@ -312,7 +312,7 @@ async def generate_itinerary(payload: ItineraryRequest):
         # Call Gemini with simpler configuration
         try:
             response = client.models.generate_content(
-                model="gemini-1.5-flash",
+                model="gemini-2.5-flash",
                 contents=[final_prompt],
                 
             )
